@@ -1,0 +1,13 @@
+{
+  "name": "test-website-performance-with-puppeteer",
+  "version": "1.0.0",
+  "repository": "https://github.com/Everettss/test-website-performance-with-puppeteer",
+  "description": "Code used in article https://michaljanaszek.com/blog/test-website-performance-with-puppeteer",
+  "main": "index.js",
+  "author": "Michal Janaszek",
+  "license": "MIT",
+  "dependencies": {
+    "progress": "^2.0.0",
+    "puppeteer": "^1.0.0"
+  }
+}
