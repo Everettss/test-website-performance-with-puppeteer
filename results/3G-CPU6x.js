@@ -10,7 +10,6 @@ const emulateConditions = async client => {
     downloadThroughput: 768 * 1024 / 8,
     uploadThroughput: 330 * 1024 / 8,
   });
-  await client.send('Emulation.enable');
   await client.send('Emulation.setCPUThrottlingRate', { rate: 6 });
 };
 

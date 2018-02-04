@@ -12,7 +12,6 @@ const testPage = require('./testPage');
     downloadThroughput: 780 * 1024 / 8, // 780 kb/s
     uploadThroughput: 330 * 1024 / 8, // 330 kb/s
   });
-  await client.send('Emulation.enable');
   await client.send('Emulation.setCPUThrottlingRate', { rate: 4 });
   console.log(await testPage(page, client));
   await browser.close();
