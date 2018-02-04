@@ -1,14 +1,14 @@
 const extractDataFromPerformanceTiming = (timing, ...dataNames) => {
-    const navigationStart = timing.navigationStart;
+  const navigationStart = timing.navigationStart;
 
-    const extractedData = {};
-    dataNames.forEach(name => {
-        extractedData[name] = timing[name] - navigationStart;
-    });
+  const extractedData = {};
+  dataNames.forEach(name => {
+    extractedData[name] = timing[name] - navigationStart;
+  });
 
-    return extractedData;
+  return extractedData;
 };
 
 module.exports = {
-    extractDataFromPerformanceTiming,
+  extractDataFromPerformanceTiming,
 };
