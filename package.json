@@ -8,6 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "progress": "^2.0.0",
-    "puppeteer": "^1.0.0"
+    "puppeteer": "^1.6.0"
   }
 }
